@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  
+  
+  <meta name="robots" content="index, follow" />
+  <meta name="geo.region" content="MX-CHH" />
+  <meta name="geo.placename" content="Ciudad Juárez, Chihuahua" />
+  <meta name="geo.position" content="31.6904;-106.4245" />
+  <meta name="ICBM" content="31.6904, -106.4245" />
+  <link rel="canonical" href="https://agcelularesjuarez.github.io/" />
+  
+  
+  
+  <meta property="og:locale" content="es_MX" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "AG Reparación de Celulares",
+    "description": "Reparación de celulares todas las marcas en Ciudad Juárez, Chihuahua.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "A de la Huerta 385",
+      "addressLocality": "Ciudad Juárez",
+      "addressRegion": "Chihuahua",
+      "postalCode": "32340",
+      "addressCountry": "MX",
+      "addressNeighborhood": "Col. El Colegio"
+    },
+    "telephone": "+526566112650",
+    "openingHours": "Mo-Sa 09:00-19:00",
+    "priceRange": "$$",
+    "hasMap": "https://maps.google.com/?q=A+de+la+Huerta+385+Col+El+Colegio+Ciudad+Juarez+Chihuahua",
+    "areaServed": {"@type": "City","name": "Ciudad Juárez"},
+    "serviceType": ["Reparación de iPhone", "Reparación de Samsung", "Reparación de pantallas", "Cambio de batería", "Reparación de carga", "Recuperación de datos"]
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+  
+
+<!-- SEO Meta Tags -->
+<title>Reparación de Celulares en Cd. Juárez | AG Reparación de Celulares</title>
+<meta name="description" content="Reparación de celulares en Ciudad Juárez, Chihuahua. Todas las marcas: iPhone, Samsung, Xiaomi, Huawei y más. Diagnóstico gratis. Visítanos en Col El Colegio o llámanos al 656-611-2650." />
+<meta property="og:title" content="Reparación de Celulares en Cd. Juárez | AG Reparación de Celulares" />
+<meta property="og:description" content="Reparación de celulares en Ciudad Juárez, Chihuahua. Todas las marcas: iPhone, Samsung, Xiaomi, Huawei y más. Diagnóstico gratis. Visítanos en Col El Colegio o llámanos al 656-611-2650." />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Reparación de Celulares en Cd. Juárez | AG Reparación de Celulares" />
+<meta name="twitter:description" content="Reparación de celulares en Ciudad Juárez, Chihuahua. Todas las marcas: iPhone, Samsung, Xiaomi, Huawei y más. Diagnóstico gratis. Visítanos en Col El Colegio o llámanos al 656-611-2650." />
+<!-- End SEO Meta Tags -->
+
+<script data-field-replace>
+(function(){
+  var params=new URLSearchParams(window.location.search);
+  var fields={};
+  var paramMap={
+    'first_name':'firstName','last_name':'lastName','full_name':'fullName',
+    'email':'email','phone':'phone','company':'company',
+    'city':'city','state':'state','country':'country'
+  };
+  var skipTags={'SCRIPT':1,'STYLE':1,'NOSCRIPT':1,'TEXTAREA':1,'CODE':1,'PRE':1};
+  var hasUrlFields=false;
+  for(var p in paramMap){
+    var v=params.get(p);
+    if(v){fields[paramMap[p]]=v;hasUrlFields=true;}
+  }
+  var contactId=params.get('contact_id');
+  function esc(s){
+    if(!s)return s;
+    var d=document.createElement('div');
+    d.appendChild(document.createTextNode(s));
+    return d.innerHTML;
+  }
+  function doReplace(data){
+    var r={};
+    r['{{full_name}}']=esc(((data.firstName||'')+' '+(data.lastName||'')).trim()||((data.fullName||data.name)||''));
+    r['{{first_name}}']=esc(data.firstName||(data.name?data.name.split(' ')[0]:'')||'');
+    r['{{last_name}}']=esc(data.lastName||(data.name&&data.name.indexOf(' ')>-1?data.name.substring(data.name.indexOf(' ')+1):'')||'');
+    r['{{email}}']=esc(data.email||'');
+    r['{{phone}}']=esc(data.phone||'');
+    r['{{company}}']=esc(data.company||'');
+    r['{{city}}']=esc(data.city||'');
+    r['{{state}}']=esc(data.state||'');
+    r['{{country}}']=esc(data.country||'');
+    r['{{date}}']=new Date().toLocaleDateString();
+    r['{{time}}']=new Date().toLocaleTimeString();
+    r['{{location}}']=[data.city,data.state,data.country].filter(Boolean).join(', ');
+    r['{{tracking_id}}']=esc(data.trackingId||'');
+    r['{{lastClickedProduct}}']=esc(data.lastClickedProduct||'');
+    r['{{lastProductClickDate}}']=esc(data.lastProductClickDate||'');
+    r['{{lastClickedProductPrice}}']=esc(data.lastClickedProductPrice||'');
+    r['{{lastClickedProductURL}}']=esc(data.lastClickedProductURL||'');
+    r['{{productsClickedCount}}']=esc(data.productsClickedCount||'0');
+    r['{{ip_address}}']=esc(data.ipAddress||'');
+    r['{{ip}}']=esc(data.ipAddress||'');
+    if(data.customFields){
+      for(var k in data.customFields){
+        r['{{'+k+'}}']=esc(String(data.customFields[k]||''));
+      }
+    }
+    params.forEach(function(v,k){
+      if(!paramMap[k]&&k!=='contact_id'&&k!=='page_id'&&k.indexOf('utm_')!==0){
+        r['{{'+k+'}}']=esc(v);
+      }
+    });
+    var hasValues=false;
+    for(var key in r){if(r[key]){hasValues=true;break;}}
+    if(!hasValues)return;
+    var walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT,{
+      acceptNode:function(n){
+        var p=n.parentNode;
+        if(p&&skipTags[p.nodeName])return NodeFilter.FILTER_REJECT;
+        return NodeFilter.FILTER_ACCEPT;
+      }
+    });
+    var node;
+    while(node=walker.nextNode()){
+      var txt=node.nodeValue;
+      if(txt&&txt.indexOf('{{')>-1){
+        var changed=txt;
+        for(var ph in r){
+          if(r[ph]&&changed.indexOf(ph)>-1){
+            changed=changed.split(ph).join(r[ph]);
+          }
+        }
+        if(changed!==txt)node.nodeValue=changed;
+      }
+    }
+    var attrs=['value','placeholder','content','alt','title'];
+    attrs.forEach(function(attr){
+      var els=document.querySelectorAll('['+attr+'*="{{"]');
+      for(var i=0;i<els.length;i++){
+        var tag=els[i].tagName;
+        if(skipTags[tag])continue;
+        var val=els[i].getAttribute(attr);
+        if(val){
+          var nv=val;
+          for(var ph in r){
+            if(r[ph]&&nv.indexOf(ph)>-1){
+              nv=nv.split(ph).join(r[ph]);
+            }
+          }
+          if(nv!==val)els[i].setAttribute(attr,nv);
+        }
+      }
+    });
+  }
+  function run(){
+    if(contactId){
+      var xhr=new XMLHttpRequest();
+      xhr.open('GET','https://app.paygogpt.com/api/landing/context/'+encodeURIComponent(contactId)+'?page_id=2888');
+      xhr.onload=function(){
+        if(xhr.status===200){
+          try{
+            var resp=JSON.parse(xhr.responseText);
+            if(resp.success&&resp.contact){
+              var merged=resp.contact;
+              for(var k in fields){merged[k]=fields[k];}
+              doReplace(merged);
+              return;
+            }
+          }catch(e){}
+        }
+        if(hasUrlFields)doReplace(fields);
+      };
+      xhr.onerror=function(){if(hasUrlFields)doReplace(fields);};
+      xhr.send();
+    }else if(hasUrlFields){
+      doReplace(fields);
+    }
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',run);}
+  else{run();}
+})();
+</script>
+<script data-payment>
+(function(){
+  var slug='mR57T79DyD';
+  var apiBase='https://app.paygogpt.com';
+  function findEmail(){
+    var ids=['email','emailAddress','buyer-email','buyerEmail','user-email','userEmail','checkout-email','customer-email','contact-email'];
+    for(var i=0;i<ids.length;i++){var el=document.getElementById(ids[i]);if(el&&el.value&&el.value.includes('@'))return el.value.trim();}
+    var inputs=document.querySelectorAll('input[type="email"],input[name*="email"],input[placeholder*="email"],input[placeholder*="Email"]');
+    for(var j=0;j<inputs.length;j++){if(inputs[j].value&&inputs[j].value.includes('@'))return inputs[j].value.trim();}
+    return '';
+  }
+  function findName(){
+    var ids=['name','fullName','full-name','buyer-name','buyerName','customer-name','userName','user-name'];
+    for(var i=0;i<ids.length;i++){var el=document.getElementById(ids[i]);if(el&&el.value)return el.value.trim();}
+    var inputs=document.querySelectorAll('input[name*="name"]:not([name*="email"]):not([type="email"]),input[placeholder*="name"]:not([placeholder*="email"]):not([type="email"]),input[placeholder*="Name"]:not([type="email"])');
+    for(var j=0;j<inputs.length;j++){if(inputs[j].value)return inputs[j].value.trim();}
+    return '';
+  }
+  var __realProcessPayment=function(a,b,c,d,e){
+    var amountCents,email,productName,productDescription,customerName,quantity;
+    if(a&&typeof a==='object'){
+      amountCents=a.amountCents;email=a.email;productName=a.productName;
+      productDescription=a.productDescription||'';customerName=a.name||'';quantity=a.quantity||1;
+    }else{
+      amountCents=typeof a==='number'?a:0;productName=typeof b==='string'?b:'';
+      productDescription=typeof c==='string'?c:'';email='';customerName='';quantity=1;
+    }
+    if(!email)email=findEmail();
+    if(!customerName)customerName=findName();
+    if(!productName){alert('Product name is required.');return Promise.reject('no_product_name');}
+    if(!amountCents||amountCents<100){alert('Amount must be at least $1.00');return Promise.reject('invalid_amount');}
+    if(!email){alert('Please enter your email address.');return Promise.reject('no_email');}
+    var successBase=window.location.href.split('?')[0];
+    return fetch(apiBase+'/api/landing-pages/public/'+slug+'/payment/checkout',{
+      method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({email:email,name:customerName,amountCents:amountCents,productName:productName,productDescription:productDescription,quantity:quantity,successUrl:successBase+'?payment=success&product='+encodeURIComponent(productName)+'&session_id={CHECKOUT_SESSION_ID}',cancelUrl:successBase+'?payment=cancelled'})
+    }).then(function(r){return r.json();}).then(function(d){
+      if(d.checkoutUrl){window.location.href=d.checkoutUrl;}
+      else{alert(d.error||'Failed to process payment');throw new Error(d.error);}
+    });
+  };
+  Object.defineProperty(window,'__processPayment',{value:__realProcessPayment,writable:false,configurable:false});
+  document.addEventListener('DOMContentLoaded',function(){
+    var urlParams=new URLSearchParams(window.location.search);
+    if(urlParams.get('payment')==='success'){
+      var pName=urlParams.get('product')||'your item';
+      var overlay=document.createElement('div');overlay.id='payment-success-overlay';
+      overlay.style.cssText='position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.5);display:flex;align-items:center;justify-content:center;z-index:999999;font-family:system-ui,-apple-system,sans-serif;';
+      overlay.innerHTML='<div style="background:white;border-radius:16px;padding:40px;max-width:420px;width:90%;text-align:center;box-shadow:0 20px 60px rgba(0,0,0,0.15);"><div style="width:64px;height:64px;border-radius:50%;background:#dcfce7;margin:0 auto 20px;display:flex;align-items:center;justify-content:center;"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div><h2 style="margin:0 0 12px;font-size:24px;font-weight:700;color:#111827;">Payment Successful!</h2><p style="margin:0 0 24px;color:#6b7280;font-size:16px;">Thank you for purchasing '+pName.replace(/</g,'&lt;').replace(/>/g,'&gt;')+'.</p><button onclick="document.getElementById(\'payment-success-overlay\').remove();window.history.replaceState({},\'\',window.location.pathname);" style="padding:12px 32px;font-size:16px;font-weight:600;background:#16a34a;color:white;border:none;border-radius:8px;cursor:pointer;">Continue</button></div>';
+      document.body.appendChild(overlay);
+    }
+  });
+})();
+</script>  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav>
+    <a class="nav-logo" href="#inicio">AG <span>Celulares</span></a>
+    <a class="nav-cta" href="#cotizar">Cotizar Reparación</a>
+  </nav>
+  <section class="hero" id="inicio">
+    <div class="hero-inner">
+      <div class="hero-content">
+        <div class="hero-label">Ciudad Juárez, Chihuahua</div>
+        <h1>Reparamos tu <em>celular</em> rápido y con garantía</h1>
+        <p class="hero-sub">Todas las marcas. Diagnóstico sin costo. Técnicos especializados en Col. El Colegio, Cd. Juárez.</p>
+        <div class="hero-actions">
+          <a class="btn-primary" href="#cotizar">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+            Cotizar ahora
+          </a>
+          <a class="btn-secondary" href="tel:+526566112650">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13.5 19.79 19.79 0 0 1 1.58 4.92 2 2 0 0 1 3.55 3h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 10.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            656-611-2650
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item"><div class="stat-num">+50</div><div class="stat-label">Marcas reparadas</div></div>
+          <div class="stat-item"><div class="stat-num">24h</div><div class="stat-label">Tiempo promedio</div></div>
+          <div class="stat-item"><div class="stat-num">✓</div><div class="stat-label">Garantía en refacciones</div></div>
+        </div>
+      </div>
+      <div class="hero-form-card" id="cotizar">
+        <div id="form-content">
+          <div class="form-title">Cotización sin costo</div>
+          <div class="form-sub">Te contactamos en menos de 1 hora</div>
+          <form id="leadForm">
+            <div class="form-group">
+              <label>Nombre completo</label>
+              <input type="text" id="f-name" placeholder="Tu nombre" required />
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Teléfono</label>
+                <input type="tel" id="f-phone" placeholder="656-XXX-XXXX" required />
+              </div>
+              <div class="form-group">
+                <label>Correo electrónico</label>
+                <input type="email" id="f-email" placeholder="tu@correo.com" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Marca y modelo</label>
+              <input type="text" id="f-brand" placeholder="Ej: iPhone 14, Samsung S23..." required />
+            </div>
+            <div class="form-group">
+              <label>¿Cuál es el problema?</label>
+              <textarea id="f-issue" placeholder="Describe el daño o falla de tu celular..." required></textarea>
+            </div>
+            <button type="submit" class="btn-submit" id="submitBtn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 2 11 13"/><path d="M22 2 15 22 11 13 2 9l20-7z"/></svg>
+              Enviar cotización
+            </button>
+            <div class="form-note">🔒 Tu información es confidencial</div>
+          </form>
+        </div>
+        <div class="success-msg" id="successMsg">
+          <div class="check">✅</div>
+          <h3>¡Cotización recibida!</h3>
+          <p>Gracias, te contactamos en breve para darte el precio y tiempo de reparación.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="services-bg" id="servicios">
+    <div class="section-inner">
+      <div class="section-label">Nuestros servicios</div>
+      <h2>Reparamos <em>todo</em> tipo de daño</h2>
+      <p class="section-desc">Desde pantallas rotas hasta problemas de software. Diagnóstico gratuito en todas las reparaciones.</p>
+      <div class="services-grid">
+        <div class="service-card"><div class="service-icon">📱</div><div class="service-title">Cambio de pantalla</div><div class="service-desc">Reemplazamos pantallas rotas o con fallas de táctil. Garantía en refacción y mano de obra.</div></div>
+        <div class="service-card"><div class="service-icon">🔋</div><div class="service-title">Sustitución de batería</div><div class="service-desc">¿Tu celular ya no dura? Cambiamos la batería con refacciones de calidad OEM.</div></div>
+        <div class="service-card"><div class="service-icon">⚡</div><div class="service-title">Puerto de carga</div><div class="service-desc">Reparamos puertos de carga sueltos, dañados o que no reconocen el cable.</div></div>
+        <div class="service-card"><div class="service-icon">💧</div><div class="service-title">Daño por agua</div><div class="service-desc">Limpieza ultrasónica y revisión de componentes afectados por líquidos.</div></div>
+        <div class="service-card"><div class="service-icon">📸</div><div class="service-title">Reparación de cámara</div><div class="service-desc">Cámara borrosa, rota o con falla de enfoque. Reparamos cámara trasera y delantera.</div></div>
+        <div class="service-card"><div class="service-icon">💾</div><div class="service-title">Recuperación de datos</div><div class="service-desc">Recuperamos fotos, contactos y archivos de dispositivos dañados o con fallas de arranque.</div></div>
+      </div>
+    </div>
+  </section>
+  <section id="marcas">
+    <div class="section-inner">
+      <div class="section-label">Marcas</div>
+      <h2>Todas las <em>marcas</em></h2>
+      <p class="section-desc">Sin importar la marca o modelo, tenemos la experiencia y las refacciones para tu equipo.</p>
+      <div class="brands-row">
+        <div class="brand-chip">Apple iPhone</div><div class="brand-chip">Samsung</div><div class="brand-chip">Xiaomi / Redmi</div><div class="brand-chip">Motorola</div><div class="brand-chip">Huawei</div><div class="brand-chip">OPPO</div><div class="brand-chip">LG</div><div class="brand-chip">OnePlus</div><div class="brand-chip">TCL</div><div class="brand-chip">Nokia</div><div class="brand-chip">Sony Xperia</div><div class="brand-chip">Google Pixel</div><div class="brand-chip">ZTE</div><div class="brand-chip">Y más...</div>
+      </div>
+    </div>
+  </section>
+  <section class="services-bg">
+    <div class="section-inner">
+      <div class="section-label">¿Por qué elegirnos?</div>
+      <h2>Calidad y <em>confianza</em> en cada reparación</h2>
+      <div class="why-grid">
+        <div class="why-item"><div class="why-num">01</div><div class="why-title">Diagnóstico sin costo</div><div class="why-desc">Revisamos tu equipo sin compromiso y te damos un precio exacto antes de iniciar.</div></div>
+        <div class="why-item"><div class="why-num">02</div><div class="why-title">Técnicos especializados</div><div class="why-desc">Equipo capacitado con herramientas profesionales y refacciones de calidad.</div></div>
+        <div class="why-item"><div class="why-num">03</div><div class="why-title">Entrega rápida</div><div class="why-desc">La mayoría de reparaciones se completan el mismo día o en menos de 24 horas.</div></div>
+        <div class="why-item"><div class="why-num">04</div><div class="why-title">Garantía incluida</div><div class="why-desc">Todas las reparaciones incluyen garantía en refacción y mano de obra.</div></div>
+      </div>
+    </div>
+  </section>
+  <section class="contact-bg" id="contacto">
+    <div class="section-inner">
+      <div class="section-label">Ubicación</div>
+      <h2>Encuéntranos en <em>Cd. Juárez</em></h2>
+      <div class="contact-grid">
+        <div class="contact-info-block">
+          <div class="contact-item"><div class="contact-item-icon">📍</div><div class="contact-item-text"><div class="contact-item-label">Dirección</div><div class="contact-item-value">A de la Huerta 385, Col. El Colegio<br>Cd. Juárez, Chihuahua C.P. 32340</div></div></div>
+          <div class="contact-item"><div class="contact-item-icon">📞</div><div class="contact-item-text"><div class="contact-item-label">Teléfono</div><div class="contact-item-value"><a href="tel:+526566112650">656-611-2650</a></div></div></div>
+          <div class="contact-item"><div class="contact-item-icon">💬</div><div class="contact-item-text"><div class="contact-item-label">WhatsApp</div><div class="contact-item-value"><a href="https://wa.me/526566112650" target="_blank">Enviar mensaje</a></div></div></div>
+          <div class="contact-item"><div class="contact-item-icon">🕐</div><div class="contact-item-text"><div class="contact-item-label">Horario</div><div class="contact-item-value">Lunes – Sábado: 9:00 am – 7:00 pm</div></div></div>
+        </div>
+        <div class="map-embed">
+          <iframe src="https://maps.google.com/maps?q=A+de+la+Huerta+385+Col+El+Colegio+Ciudad+Juarez+Chihuahua+Mexico&output=embed&z=15" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Ubicación AG Reparación de Celulares"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>© 2025 AG Reparación de Celulares · A de la Huerta 385, Col. El Colegio, Cd. Juárez, Chih. · <a href="tel:+526566112650">656-611-2650</a></p>
+    <p style="margin-top:8px;">Reparación de celulares en Ciudad Juárez · Todas las marcas · Diagnóstico sin costo</p>
+  </footer>
+  <a class="wa-float" href="https://wa.me/526566112650" target="_blank" rel="noopener" aria-label="WhatsApp AG Celulares">
+    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+  </a>
+  <script>
+    const WEBHOOK_URL = 'https://app.paygogpt.com/api/webhooks/flow/1865/9dc064b4ff665d3995d593fdea64ba56e425deec3b2de76fe25586c519957b69';
+    document.getElementById('leadForm').addEventListener('submit', async function(e) {
+      e.preventDefault();
+      const btn = document.getElementById('submitBtn');
+      btn.disabled = true;
+      btn.textContent = 'Enviando...';
+      const payload = {
+        contactName: document.getElementById('f-name').value.trim(),
+        contactEmail: document.getElementById('f-email').value.trim(),
+        contactPhone: document.getElementById('f-phone').value.trim(),
+        data: {
+          brand_model: document.getElementById('f-brand').value.trim(),
+          issue: document.getElementById('f-issue').value.trim(),
+          source: 'landing-page-juarez'
+        }
+      };
+      try {
+        await fetch(WEBHOOK_URL, { method: 'POST', headers: { 'Content-Type': 'application/json' }, mode: 'no-cors', body: JSON.stringify(payload) });
+      } catch (err) { console.log('Webhook sent'); }
+      document.getElementById('form-content').style.display = 'none';
+      document.getElementById('successMsg').style.display = 'block';
+    });
+  </script>
+</body>
+</html>
